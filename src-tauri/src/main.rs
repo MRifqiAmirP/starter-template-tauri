@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    nota_generator_lib::run()
+    starter_template_tauri_lib::run()
 }

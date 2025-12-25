@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "nota-generator",
+  "productName": "starter-template-tauri",
   "version": "0.1.0",
-  "identifier": "com.cocri.nota-generator",
+  "identifier": "com.cocri.starter-template-tauri",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Nota Generator",
+        "title": "Starter Template Tauri",
         "maximized": true,
         "resizable": true,
         "decorations": true
