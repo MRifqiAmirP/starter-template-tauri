@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
 .logo.vite:hover {
   filter: drop-shadow(0 0 2em #747bff);
 }
@@ -27,7 +33,7 @@
 
 .container {
   margin: 0;
-  padding-top: 10vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,8 +125,6 @@ button {
   }
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -176,8 +180,6 @@ button {
     --chart-5: 340 75% 55%;
   }
 }
-
-
 
 @layer base {
   * {
