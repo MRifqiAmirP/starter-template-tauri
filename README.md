@@ -1,4 +1,4 @@
-# Tauri + React + TypeScript + shadcn/ui = ❤
+# Tauri + Rust + React + TypeScript + shadcn/ui = ❤
 
 <div align="center">
   <div>
